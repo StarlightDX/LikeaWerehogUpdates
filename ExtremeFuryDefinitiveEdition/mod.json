@@ -1,0 +1,808 @@
+{
+  "Groups": [
+//    {
+//      "Name": "Main",
+//      "DisplayName": "Debug Options",
+//      "Elements": [
+//        {
+//          "Name": "IncludeDir23",
+//          "DisplayName": "Debug",
+//          "Description": [
+//            "Select whether to enable the debug style over the Werehog style."
+//          ],
+//          "Type": "DebugStyle",
+//          "MinValue": null,
+//          "MaxValue": null,
+//          "DefaultValue": "./Core/Dummy/"
+//        }
+//      ]
+//    },
+    {
+      "Name": "Main",
+      "DisplayName": "Like a Werehog: Extreme Fury [Definitive Edition]",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Like a Werehog",
+          "Description": [
+            "Select whether to use the base game LAW content.",
+            "",
+            "If unsure, the default options shipped with the mod is the best setup!"
+          ],
+          "Type": "BaseContent",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Base/"
+        },
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "Like a Werehog Gaiden",
+          "Description": [
+            "Select whether to use the Gaiden content.",
+            "",
+            "This is the DLC content for Like a Werehog.",
+            "",
+            "If unsure, the default options shipped with the mod is the best setup!"
+          ],
+          "Type": "Gaiden",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Gaiden/"
+        },
+        {
+          "Name": "IncludeDir3",
+          "DisplayName": "Like a Werehog: Extreme Fury",
+          "Description": [
+            "Select whether to use Like a Werehog: Extreme Fury.",
+            "",
+            "This auto supports the DLC for the styles but will require Gaiden for the Werehog style.",
+            "",
+            "If unsure, the default options shipped with the mod is the best setup!"
+          ],
+          "Type": "ExtremeFury",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Kiwami/"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Extra Gameplay Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir4",
+          "DisplayName": "Difficulty",
+          "Description": [
+            "Select which difficulty to play with for the LAW Extreme Fury styles."
+          ],
+          "Type": "DifficultyLAW",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Dummy/"
+        },
+//        {
+//          "Name": "IncludeDir25",
+//          "DisplayName": "Difficulty (Dark Slayer)",
+//          "Description": [
+//            "Select which difficulty to play with for the HMC Dark Slayer style."
+//          ],
+//          "Type": "DifficultyHMC",
+//          "MinValue": null,
+//          "MaxValue": null,
+//          "DefaultValue": "./Core/Dummy/"
+//        },
+//        {
+//          "Name": "IncludeDir5",
+//          "DisplayName": "Fur Quality",
+//          "Description": [
+//            "Select which fur quality to use."
+//          ],
+//          "Type": "FurQuality",
+//          "MinValue": null,
+//          "MaxValue": null,
+//          "DefaultValue": "./Core/Dummy/"
+//        },
+        {
+          "Name": "IncludeDir16",
+          "DisplayName": "Stylized Models",
+          "Description": [
+            "Select whether to use the unique style models from CWD for these styles.",
+			"",
+			"- Legend.",
+			"- Reborn.",
+			"- Berserker.",
+			"",
+			"You may wish to disable this if you are using model swaps for the Werehog and wish for these styles to change to."
+          ],
+          "Type": "GameplayModel",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/GameplayModel/"
+        },
+        {
+          "Name": "IncludeDir6",
+          "DisplayName": "Battle Theme",
+          "Description": [
+            "Select whether to use the battle theme inlcuded in the mod."
+          ],
+          "Type": "BattleTheme",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/BattleTheme/"
+        },
+        {
+          "Name": "IncludeDir7",
+          "DisplayName": "Jingle",
+          "Description": [
+            "Select whether to use the jingles inlcuded in the mod."
+          ],
+          "Type": "Jingle",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/Jingle/"
+        },
+        {
+          "Name": "IncludeDir17",
+          "DisplayName": "Extra Media",
+          "Description": [
+            "Allows you to unlock some extra LAW media such as images, audio & enemy logs in the Lab."
+          ],
+          "Type": "ExtraMedia",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/ExtraMedia/"
+        },
+        {
+          "Name": "IncludeDir8",
+          "DisplayName": "One Hit KO",
+          "Description": [
+            "Challenge!",
+            "",
+            "Select whether to use One Hit KO.",
+            "",
+            "This will make it so that any damage will instantly kill you!"
+          ],
+          "Type": "OneHitKO",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/ForeignInputSystem/"
+        },
+        {
+          "Name": "IncludeDir9",
+          "DisplayName": "Ring Allergy",
+          "Description": [
+            "Challenge!",
+            "",
+            "Select whether to use Ring Allergy.",
+            "",
+            "This will make rings harm you!"
+          ],
+          "Type": "RingAllergy",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Dummy/"
+        },
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "User Interface Options",
+      "Elements": [
+//        {
+//          "Name": "IncludeDir18",
+//          "DisplayName": "HUD",
+//          "Description": [
+//            "Select which HUD option to use in the mod."
+//          ],
+//          "Type": "HeadsUp",
+//          "MinValue": null,
+//          "MaxValue": null,
+//          "DefaultValue": "./Config/UserInterface/HeadsUp/BetterShield/"
+//        },
+        {
+          "Name": "IncludeDir19",
+          "DisplayName": "Text",
+          "Description": [
+            "Select which text to use in the mod.",
+			"",
+			"Original: OG Like a Werehog EdoSZ style text.",
+			"",
+			"Faithful: Base game style text but accommodated for Like a Werehog."
+          ],
+          "Type": "ImageText",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/UserInterface/ImageText/EdoSZ/"
+        },
+        {
+          "Name": "IncludeDir10",
+          "DisplayName": "Style Icons",
+          "Description": [
+            "Select which style icons to use in the mod."
+          ],
+          "Type": "StyleIcon",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/StyleIcon/English/"
+        },
+        {
+          "Name": "IncludeDir24",
+          "DisplayName": "Boot Logo",
+          "Description": [
+            "Select which booting logo you wish to use with the mod."
+          ],
+          "Type": "BootLogo",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/UserInterface/BootLogo/LAWEF/"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Extra Setting Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir11",
+          "DisplayName": "HedgehogMayCry Collab Stage",
+          "Description": [
+            "Select whether to enable the HMC Collab stage."
+          ],
+          "Type": "HMCCollab",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Dummy/"
+        },
+        {
+          "Name": "IncludeDir21",
+          "DisplayName": "Boot Into The HUB",
+          "Description": [
+            "Select whether to boot directly into the HUB World of the mod.",
+			"",
+			"When enabled this will only function when you have completed the game, until then the game will function as usual.",
+			"",
+			"You can still access the World Map from the HUB World via an Entrance Gate."
+          ],
+          "Type": "BootIntoHub",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/FloodedCity/BootIntoHub/"
+        },
+        {
+          "Name": "IncludeDir22",
+          "DisplayName": "Additional Time Scene",
+          "Description": [
+            "Select whether to have the additional time scene in the HUB World, this time scene is set at roughly 1800 in game thus can appear to be daytime.",
+			"",
+			"Users may wish to disable this if they prefer lore consistency.",
+			"",
+			"If you are currently in this time scene and you disable it you may still be in it when you load in to the HUB, just changing the time via the time switch will solve this."
+          ],
+          "Type": "TimeSwitchScene",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Dummy/"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "BaseContent": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Core/Base/",
+        "Description": [
+          "Base Like a Werehog for Sonic Unleashed.",
+          "",
+          "Suggested."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the base Like a Werehog.",
+          "",
+          "This is for if you wish to use other Werehog mods with Extreme Fury or the challenge options."
+        ]
+      }
+    ],
+    "Gaiden": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Core/Gaiden/",
+        "Description": [
+          "Like a Werehog Gaiden.",
+          "",
+          "This adds in Like a Werehog changes to the DLC content."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the Like a Werehog Gaiden."
+        ]
+      }
+    ],
+    "ExtremeFury": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Core/Kiwami/",
+        "Description": [
+          "Like a Werehog: Extreme Fury.",
+          "",
+          "Includes 6 new gameplay styles!",
+          "",
+          "Includes 21 new stages!",
+          "",
+          "Includes 4 additional Dragon Dojo gameplay styles!",
+          "",
+          "For Foreign Input System, enable base Like a Werehog in addition to this."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the Like a Werehog: Extreme Fury."
+        ]
+      }
+    ],
+    "DifficultyLAW": [
+      {
+        "DisplayName": "Reduced",
+        "Value": "./Config/Difficulty/Reduced/",
+        "Description": [
+          "Reduced difficulty.",
+          "",
+          "Suggested for new players.",
+          "",
+          "Enemies are generally weaker than the base mod in all ways.",
+		  "",
+		  "Only works with these styles:",
+		  "- Rush",
+		  "- Brawler",
+		  "- Beast",
+		  "- Legend",
+		  "- Reborn",
+		  "",
+		  "This is because you cannot access the extra Dojo styles until you complete the game."
+        ]
+      },
+      {
+        "DisplayName": "Normal",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Normal difficulty.",
+          "",
+          "Suggested for new players."
+        ]
+      },
+      {
+        "DisplayName": "Legend Mode",
+        "Value": "./Config/Difficulty/LegendMode/",
+        "Description": [
+          "Legend difficulty.",
+          "",
+          "Suggested for skilled players.",
+          "",
+          "Enemies are generally stronger in all ways.",
+          "",
+          "Checkpoints and extra stage buffs are removed.",
+          "",
+          "Buffs present in extra stages from Extreme Fury are removed."
+        ]
+      },
+      {
+        "DisplayName": "Gaia May Cry Mode",
+        "Value": "./Config/Difficulty/GaiaMayCry/",
+        "Description": [
+          "Gaia May Cry difficulty.",
+          "",
+          "Suggested for skilled players.",
+          "",
+          "Enemies die in a few hits, but so do you.",
+          "",
+          "Think strategically when approaching combat encounters."
+        ]
+      },
+      {
+        "DisplayName": "Legend May Cry Mode",
+        "Value": "./Config/Difficulty/LegendMayCry/",
+        "Description": [
+          "Legend May Cry difficulty.",
+          "",
+          "Suggested for the most skilled players.",
+          "",
+          "Enemies die in a few hits, but so do you.",
+          "",
+          "Checkpoints are removed.",
+          "",
+          "Buffs present in extra stages from Extreme Fury are removed."
+        ]
+      }
+    ],
+    "DifficultyHMC": [
+      {
+        "DisplayName": "Normal",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Normal difficulty.",
+          "",
+          "Suggested for standard players."
+        ]
+      },
+      {
+        "DisplayName": "Expert",
+        "Value": "./Config/Difficulty/HMCExpert/",
+        "Description": [
+          "Expert difficulty.",
+          "",
+          "Suggested for skilled players."
+        ]
+      }
+    ],
+    "FurQuality": [
+      {
+        "DisplayName": "No Fur",
+        "Value": "./Config/Fur/NoQuality/",
+        "Description": [
+          "No fur quality.",
+          "",
+          "May be useful for low end systems."
+        ]
+      },
+      {
+        "DisplayName": "Default",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Default fur quality.",
+          "",
+          "Suggested."
+        ]
+      },
+      {
+        "DisplayName": "High Quality",
+        "Value": "./Config/Fur/HighQuality/",
+        "Description": [
+          "High fur quality.",
+          "",
+          "May lower fps."
+        ]
+      }
+    ],
+    "BattleTheme": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/BattleTheme/",
+        "Description": [
+          "Use the battle theme included in Like a Werehog."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the battle theme included in Like a Werehog."
+        ]
+      }
+    ],
+    "Jingle": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/Jingle/",
+        "Description": [
+          "Use the jingles included in Like a Werehog."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the jingles included in Like a Werehog."
+        ]
+      }
+    ],
+    "ExtraMedia": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/ExtraMedia/",
+        "Description": [
+          "Use the extra media included in Like a Werehog."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the extra media included in Like a Werehog."
+        ]
+      }
+    ],
+    "OneHitKO": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/OneHitKO/",
+        "Description": [
+          "Enables One Hit KO.",
+          "",
+          "This will make any damage instantly kill you.",
+          "",
+		  "Gameplay that will put you on the edge of your seat.",
+		  "",
+          "Warning, may cause rage."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Config/ForeignInputSystem/",
+        "Description": [
+          "Disables One Hit KO."
+        ]
+      }
+    ],
+    "RingAllergy": [
+      {
+        "DisplayName": "Gradual",
+        "Value": "./Config/RingAllergy/Gradual/",
+        "Description": [
+          "Enables Gradual death Ring Allergy.",
+          "",
+          "Rings will gradually kill you!"
+        ]
+      },
+      {
+        "DisplayName": "Instant",
+        "Value": "./Config/RingAllergy/Instant/",
+        "Description": [
+          "Enables Instant death Ring Allergy.",
+          "",
+          "Rings will instantly kill you!"
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables Ring Allergy."
+        ]
+      }
+    ],
+    "HMCCollab": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/HMC0/",
+        "Description": [
+          "Enables access to the additional stage that's part of the HedgehogMayCry Collab.",
+          "",
+          "The gate can be found near the HotDog guy in Spagonia."
+        ]
+      }
+//      {
+//        "DisplayName": "Disabled",
+//        "Value": "./Core/Dummy/",
+//        "Description": [
+//          "Disables the HMC Collab stage."
+//        ]
+//      }
+    ],
+    "StyleIcon": [
+      {
+        "DisplayName": "English",
+        "Value": "./Config/StyleIcon/English/",
+        "Description": [
+          "Use the default English style icons."
+        ]
+      },
+      {
+        "DisplayName": "Japanese",
+        "Value": "./Config/StyleIcon/Japanese/",
+        "Description": [
+          "Use the Japanese style icons."
+        ]
+      },
+      {
+        "DisplayName": "DMC Inspired",
+        "Value": "./Config/StyleIcon/DMCInspired/",
+        "Description": [
+          "Use the DMC Inspired bonus style icons."
+        ]
+      }
+    ],
+    "HeadsUp": [
+      {
+        "DisplayName": "Default",
+        "Value": "./Config/UserInterface/HeadsUp/BetterShield/",
+        "Description": [
+          "Use the default HUD."
+        ]
+      }
+    ],
+    "ImageText": [
+      {
+        "DisplayName": "Original",
+        "Value": "./Config/UserInterface/ImageText/EdoSZ/",
+        "Description": [
+          "Use the original Like a Werehog text that uses the EdoSZ font."
+        ]
+      },
+      {
+        "DisplayName": "Faithful",
+        "Value": "./Config/UserInterface/ImageText/Faithful/",
+        "Description": [
+          "Use the faithful Like a Werehog text that sticks to the games original art style."
+        ]
+      }
+    ],
+    "GameplayModel": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/GameplayModel/",
+        "Description": [
+          "Enables the unique gameplay models."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the unique gameplay models."
+        ]
+      }
+    ],
+    "BootIntoHub": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/FloodedCity/BootIntoHub/",
+        "Description": [
+          "Enables booting directly into the HUB World for Like a Werehog.",
+          "",
+          "This will only take affect once you have completed the game."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables booting directly into the HUB World for Like a Werehog."
+        ]
+      }
+    ],
+    "TimeSwitchScene": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/FloodedCity/TimeSwitch/0001/",
+        "Description": [
+          "Enables the additional lighting scene."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Config/FloodedCity/TimeSwitch/Default/",
+        "Description": [
+          "Disables the additional lighting scene."
+        ]
+      }
+    ],
+    "BootLogo": [
+      {
+        "DisplayName": "A",
+        "Value": "./Config/UserInterface/BootLogo/FIS/",
+        "Description": [
+		  "Foreign Input System.",
+		  "",
+          "Use the Foreign Input System logo for the boot phase."
+        ]
+      },
+      {
+        "DisplayName": "B",
+        "Value": "./Config/UserInterface/BootLogo/LAW/",
+        "Description": [
+		  "Like a Werehog.",
+		  "",
+          "Use the Like a Werehog Original logo for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "C",
+        "Value": "./Config/UserInterface/BootLogo/LAWClassic/",
+        "Description": [
+		  "Like a Werehog Classic.",
+		  "",
+          "Use the Like a Werehog Classic logo for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "D",
+        "Value": "./Config/UserInterface/BootLogo/LAWEF/",
+        "Description": [
+		  "Like a Werehog: Extreme Fury.",
+		  "",
+          "Use the Like a Werehog: Extreme Fury logo for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "E",
+        "Value": "./Config/UserInterface/BootLogo/LAWDD/",
+        "Description": [
+		  "Like a Werehog: Dragon Dojo.",
+		  "",
+          "Use the Like a Werehog: Dragon Dojo logo for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "F",
+        "Value": "./Config/UserInterface/BootLogo/LAWGaiden/",
+        "Description": [
+		  "Like a Werehog Gaiden.",
+		  "",
+          "Use the Like a Werehog Gaiden logo for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "G",
+        "Value": "./Config/UserInterface/BootLogo/LAW0/",
+        "Description": [
+		  "Like a Werehog 0.",
+		  "",
+          "Use the Like a Werehog 0 logo for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "H",
+        "Value": "./Config/UserInterface/BootLogo/LAW_Crescent/",
+        "Description": [
+		  "Like a Werehog.",
+		  "",
+          "Use the Like a Werehog logo with crescent for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "I",
+        "Value": "./Config/UserInterface/BootLogo/LAW_Crescent_Classic/",
+        "Description": [
+		  "Like a Werehog.",
+		  "",
+          "Use the Like a Werehog Classic logo with crescent for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "J",
+        "Value": "./Config/UserInterface/BootLogo/LAWNightmare/",
+        "Description": [
+		  "Nightmare.",
+		  "",
+          "Use the Nightmare logo for the boot phase."
+        ]
+      },
+	  {
+        "DisplayName": "L",
+        "Value": "./Config/UserInterface/BootLogo/HMC0/",
+        "Description": [
+		  "Hedgehog May Cry 0.",
+		  "",
+          "Use the Hedgehog May Cry 0 logo for the boot phase."
+        ]
+      }
+    ],
+    "DebugStyle": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Core/Debug/",
+        "Description": [
+          "Enables the debug style over (Chaotic) the base Werehog style."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the debug style."
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }
