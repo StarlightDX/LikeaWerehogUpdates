@@ -1,0 +1,379 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Like a Werehog: Extreme Fury [Lite]",
+      "Elements": [
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "Style",
+          "Description": [
+            "Select which style to use.",
+            "",
+            "The styles are:",
+			"",
+			"- Werehog",
+			"- Rush",
+			"- Brawler",
+			"- Beast",
+			"- Legend",
+			"- Reborn",
+			"- Slasher",
+			"- Buster",
+			"- Hermit",
+			"- Berserker",
+			"- Dark Slayer (HMC 0)"
+          ],
+          "Type": "BaseContent",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./ExtremeFury/Brawler/"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Extra Gameplay Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir6",
+          "DisplayName": "Stylized Models",
+          "Description": [
+            "Select whether to use the unique style visuals for these styles when using Semka's Concept Werehog Designs mod in addition to this mod.",
+			"",
+			"- Legend.",
+			"- Reborn.",
+			"- Berserker."
+          ],
+          "Type": "GameplayModel",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/GameplayModel/"
+        },
+        {
+          "Name": "IncludeDir5",
+          "DisplayName": "Battle Theme",
+          "Description": [
+            "Select whether to use the battle theme inlcuded in the mod."
+          ],
+          "Type": "BattleTheme",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/BattleTheme/"
+        },
+        {
+          "Name": "IncludeDir4",
+          "DisplayName": "Jingle",
+          "Description": [
+            "Select whether to use the jingles inlcuded in the mod."
+          ],
+          "Type": "Jingle",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/Jingle/"
+        },
+        {
+          "Name": "IncludeDir3",
+          "DisplayName": "One Hit KO",
+          "Description": [
+            "Challenge!",
+            "",
+            "Select whether to use One Hit KO.",
+            "",
+            "This will make it so that any damage will instantly kill you!"
+          ],
+          "Type": "OneHitKO",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/ForeignInputSystem/"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "User Interface Options",
+      "Elements": [
+//        {
+//          "Name": "IncludeDir7",
+//          "DisplayName": "HUD",
+//          "Description": [
+//            "Select which HUD option to use in the mod."
+//          ],
+//          "Type": "HeadsUp",
+//          "MinValue": null,
+//          "MaxValue": null,
+//          "DefaultValue": "./Config/UserInterface/HeadsUp/BetterShield/"
+//        },
+        {
+          "Name": "IncludeDir8",
+          "DisplayName": "Text",
+          "Description": [
+            "Select which text to use in the mod.",
+			"",
+			"Original: OG Like a Werehog EdoSZ style text.",
+			"",
+			"Faithful: Base game style text but accommodated for Like a Werehog."
+          ],
+          "Type": "ImageText",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/UserInterface/ImageText/EdoSZ/"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Custom User Content",
+      "Elements": [
+        {
+          "Name": "IncludeDir9",
+          "DisplayName": "Option",
+          "Description": [
+            "Toggle custom user content.",
+			"",
+			"This allows you to put archives into Custom/ to add-on content such as difficulty modifiers to Lite."
+          ],
+          "Type": "CustomDir",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/Dummy/"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "BaseContent": [
+      {
+        "DisplayName": "Werehog",
+        "Value": "./Core/ExtremeFury/Werehog/",
+        "Description": [
+          "The original Like a Werehog gameplay.",
+          "",
+          "Simple and faithful to Sonic Unleashed.",
+		  "",
+		  "Like a Werehog."
+        ]
+      },
+      {
+        "DisplayName": "Rush",
+        "Value": "./Core/ExtremeFury/Rush/",
+        "Description": [
+          "Fast paced gameplay, quick punches with low damage and wide dodge capability.",
+          "",
+          "A higher skill gap with a greater reward.",
+		  "",
+		  "Like a Werehog: Extreme Fury."
+        ]
+      },
+      {
+        "DisplayName": "Brawler",
+        "Value": "./Core/ExtremeFury/Brawler/",
+        "Description": [
+          "Similar to the Werehog style but fine tuned to be just right.",
+          "",
+          "A good all rounder style.",
+		  "",
+		  "Like a Werehog: Extreme Fury."
+        ]
+      },
+      {
+        "DisplayName": "Beast",
+        "Value": "./Core/ExtremeFury/Beast/",
+        "Description": [
+          "Slow but impactful punches with higher resistance to damage.",
+          "",
+          "A good style for wiping out hordes of enemies.",
+		  "",
+		  "Like a Werehog: Extreme Fury."
+        ]
+      },
+      {
+        "DisplayName": "Legend",
+        "Value": "./Core/ExtremeFury/Legend/",
+        "Description": [
+          "Similar to the Brawler style but with the Beta moveset and a Fury that if used right, can last for very long amounts of time.",
+          "",
+          "Another good all rounder style but with that extra strength.",
+		  "",
+		  "Like a Werehog: Extreme Fury."
+        ]
+      },
+      {
+        "DisplayName": "Reborn",
+        "Value": "./Core/ExtremeFury/Reborn/",
+        "Description": [
+          "Similar to the Brawler style but fine tuned for the player who wants full control over every situation. Full control over your Fury meter allows you to take advantage of any encounter.",
+          "",
+          "Another good all rounder style but with full control.",
+		  "",
+		  "Like a Werehog: Extreme Fury."
+        ]
+      },
+      {
+        "DisplayName": "Slasher",
+        "Value": "./Core/DragonDojo/Slasher/",
+        "Description": [
+          "Similar to Rush when it comes to speed, Slasher focues on hit & run mechanics, charge enemies then dash away in the blink of an eye.",
+          "",
+          "A good hit & run style but you are advised to avoid comboing enemies due to your low health.",
+		  "",
+		  "Like a Werehog: Extreme Fury (Dragon Dojo Update)."
+        ]
+      },
+      {
+        "DisplayName": "Buster",
+        "Value": "./Core/DragonDojo/Buster/",
+        "Description": [
+          "The Dojo's take on the Brawling seen in Sonics default arsenal of styles, Buster aims to enhance the power of items and pickups that you find in the world.",
+          "",
+          "Power ups last longer and offer more, explosive boxes hit harder.",
+		  "",
+		  "Like a Werehog: Extreme Fury (Dragon Dojo Update)."
+        ]
+      },
+      {
+        "DisplayName": "Hermit",
+        "Value": "./Core/DragonDojo/Hermit/",
+        "Description": [
+          "A style learned in the Dojo; the Hermit style takes on art of patience.",
+          "",
+          "Your guard is immensly strong against most standard foes, guard up when enemies attack, then let loose a rapid barrage of attacks.",
+		  "",
+		  "Like a Werehog: Extreme Fury (Dragon Dojo Update)."
+        ]
+      },
+      {
+        "DisplayName": "Berserker",
+        "Value": "./Core/DragonDojo/Berserker/",
+        "Description": [
+          "Let all your Fury loose.",
+          "",
+          "A style based around building up your Fury and letting enemies feel the hurt while Fury is active.",
+		  "",
+		  "Like a Werehog: Extreme Fury (Dragon Dojo Update)."
+        ]
+      },
+      {
+        "DisplayName": "Dark Slayer",
+        "Value": "./Core/HedgehogMayCry/DarkSlayer/",
+        "Description": [
+          "Dark Slayer increases the difficulty of the game by increasing enemy hp/attack values and revamps the bosses, introduces a unique combo score system that allows the player to potentially keep Fury Mode on during an entire group fight, and adds brand new physics capable of insane platforming skips in the right hands.",
+          "",
+          "Hedgehog May Cry 0."
+        ]
+      }
+    ],
+    "BattleTheme": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/BattleTheme/",
+        "Description": [
+          "Use the battle theme included in Like a Werehog."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the battle theme included in Like a Werehog."
+        ]
+      }
+    ],
+    "Jingle": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/Jingle/",
+        "Description": [
+          "Use the jingles included in Like a Werehog."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the jingles included in Like a Werehog."
+        ]
+      }
+    ],
+    "OneHitKO": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/OneHitKO/",
+        "Description": [
+          "Enables One Hit KO.",
+          "",
+          "This will make any damage instantly kill you.",
+          "",
+		  "Gameplay that will put you on the edge of your seat.",
+		  "",
+          "Warning, may cause rage."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Config/ForeignInputSystem/",
+        "Description": [
+          "Disables One Hit KO."
+        ]
+      }
+    ],
+    "HeadsUp": [
+      {
+        "DisplayName": "Default",
+        "Value": "./Config/UserInterface/HeadsUp/BetterShield/",
+        "Description": [
+          "Use the default HUD."
+        ]
+      }
+    ],
+    "ImageText": [
+      {
+        "DisplayName": "Original",
+        "Value": "./Config/UserInterface/ImageText/EdoSZ/",
+        "Description": [
+          "Use the original Like a Werehog text that uses the EdoSZ font."
+        ]
+      },
+      {
+        "DisplayName": "Faithful",
+        "Value": "./Config/UserInterface/ImageText/Faithful/",
+        "Description": [
+          "Use the faithful Like a Werehog text that sticks to the games original art style."
+        ]
+      }
+    ],
+    "GameplayModel": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Config/GameplayModel/",
+        "Description": [
+          "Enables the unique gameplay models."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables the unique gameplay models."
+        ]
+      }
+    ],
+    "CustomDir": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "./Custom/",
+        "Description": [
+          "Enables custom user content."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disables custom user content."
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }

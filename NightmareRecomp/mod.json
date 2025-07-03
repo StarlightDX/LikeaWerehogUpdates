@@ -1,0 +1,246 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Nightmare: A Like a Werehog Series Mod",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Mode",
+          "Description": [
+            "Select which mode to use, this is dependant on which mod you're using.",
+			"",
+			"- Lite options can be used with LAW: Extreme Fury [Lite],",
+			"Or just be used by themselves.",
+			"",
+			"- Extreme Fury requires:",
+			"LAW: Extreme Fury.",
+			"Or",
+			"LAW: Extreme Fury [Definitive Edition].",
+			"This will apply to all styles."
+          ],
+          "Type": "MainContent",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Core/DefinitiveEdition/"
+        }
+      ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "User Interface Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir2",
+          "DisplayName": "HUD",
+          "Description": [
+            "Select whether to use the HUD in the mod."
+          ],
+          "Type": "HeadsUp",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "./Config/UserInterface/HUD/"
+        },
+	  ]
+    },
+    {
+      "Name": "Main",
+      "DisplayName": "Automatic Enabling",
+      "Elements": [
+        {
+          "Name": "DependsCount",
+          "DisplayName": "Auto Enable",
+          "Description": [
+            "Select whether to enable automatic enabling of mods.",
+			"",
+			"When configured, this will automatically enable the mod set below.",
+			"",
+			"Disable this if you wish to use this mod with non Like a Werehog mods."
+          ],
+          "Type": "DependancyVar",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "0"
+        },
+		{
+          "Name": "Depends0",
+          "DisplayName": "Mod",
+          "Description": [
+            "Select which mod to enable a dependancy for.",
+			"",
+			"This will automatically enable the set mod."
+          ],
+          "Type": "DependancyType",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "LAWEFKiwami|Like a Werehog: Extreme Fury [Definitive Edition]|https://gamebanana.com/mods/578931|1.3.10"
+        }
+	  ]
+    }
+  ],
+  "Enums": {
+    "MainContent": [
+      {
+        "DisplayName": "Extreme Fury [All Styles]",
+        "Value": "./Core/DefinitiveEdition/",
+        "Description": [
+          "Replaces all styles with Nightmare variants.",
+		  "",
+		  "Requires Like a Werehog: Extreme Fury."
+        ]
+      },
+      {
+        "DisplayName": "Lite: Werehog",
+        "Value": "./Core/Lite/Werehog/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Werehog styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Rush",
+        "Value": "./Core/Lite/Rush/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Rush styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Brawler",
+        "Value": "./Core/Lite/Brawler/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Brawler styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Beast",
+        "Value": "./Core/Lite/Beast/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Beast styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Legend",
+        "Value": "./Core/Lite/Legend/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Legend styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Reborn",
+        "Value": "./Core/Lite/Reborn/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Reborn styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Slasher",
+        "Value": "./Core/Lite/Slasher/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Slasher styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Buster",
+        "Value": "./Core/Lite/Buster/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Buster styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Hermit",
+        "Value": "./Core/Lite/Hermit/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Hermit styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Berserker",
+        "Value": "./Core/Lite/Berserker/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Berserker styles' Nightmare variant."
+        ]
+      },
+	  {
+        "DisplayName": "Lite: Dark Slayer",
+        "Value": "./Core/Lite/DarkSlayer/",
+        "Description": [
+          "Lite variant.",
+		  "",
+		  "Replaces the Werehog with the Dark Slayer styles' Nightmare variant."
+        ]
+      }
+    ],
+    "HeadsUp": [
+      {
+        "DisplayName": "Disabled",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Disable the HUD."
+        ]
+      },
+	  {
+        "DisplayName": "Enabled",
+        "Value": "./Config/UserInterface/HUD/",
+        "Description": [
+          "Enable the HUD."
+        ]
+      }
+    ],
+	"DependancyVar": [
+	  {
+        "DisplayName": "Enabled",
+        "Value": "1",
+        "Description": [
+          "Enable auto enable."
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "0",
+        "Description": [
+          "Disable auto enable."
+        ]
+      }
+    ],
+	"DependancyType": [
+      {
+        "DisplayName": "Like a Werehog: Extreme Fury [Definitive Edition]",
+        "Value": "LAWEFKiwami|Like a Werehog: Extreme Fury [Definitive Edition]|https://gamebanana.com/mods/578931|1.3.10",
+        "Description": [
+          "LAW: Extreme Fury [Definitive Edition].",
+		  "",
+		  "This option will only function if the above option is enabled."
+        ]
+      },
+	  {
+        "DisplayName": "Like a Werehog: Extreme Fury [Lite]",
+        "Value": "LAWEFLite|Like a Werehog: Extreme Fury [Lite]|https://gamebanana.com/mods/578931|1.0.2",
+        "Description": [
+          "LAW: Extreme Fury [Lite].",
+		  "",
+		  "This option will only function if the above option is enabled."
+        ]
+      }
+    ]
+  },
+    "IniFile": "mod.ini"
+  }
