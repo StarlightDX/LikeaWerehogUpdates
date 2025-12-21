@@ -118,7 +118,7 @@
           "Type": "GameplayModel",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": "./Config/GameplayModel/"
+          "DefaultValue": "./Config/GameplayModel/Vanilla+/"
         },
         {
           "Name": "IncludeDir6",
@@ -639,11 +639,18 @@
     "GameplayModel": [
       {
         "DisplayName": "Enabled",
-        "Value": "./Config/GameplayModel/",
+        "Value": "./Config/GameplayModel/Vanilla+/",
         "Description": [
           "Enables the unique gameplay models."
         ]
       },
+//	  {
+//        "DisplayName": "Enabled + 1.3.10 Additions",
+//        "Value": "./Config/GameplayModel/Update/",
+//        "Description": [
+//          "Enables the unique gameplay models plus the additional models for all gameplay styles added as part of update 1.3.10."
+//        ]
+//      },
       {
         "DisplayName": "Disabled",
         "Value": "./Core/Dummy/",

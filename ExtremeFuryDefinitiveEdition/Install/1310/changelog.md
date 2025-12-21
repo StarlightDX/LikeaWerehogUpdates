@@ -1,0 +1,12 @@
+## LAW:EF Definitve Edition Install.
+Thank you for downloading Like a Werehog: Extreme Fury 1.3.10!
+Due to GameBanana's file size restrictions, you will need to press the update button below.
+
+The update is roughly 1GB in size.
+
+The mod contents from 1.3.8 can still be enjoyed without updating, however you will need to update the mod to play the 1.3.10 content listed below:
+
+- The Flooded City Entrance Field.
+- The missions associated with the Entrance Field.
+- All extra media introduced since 1.3.5.
+- High quality GUI assets such as loading screens for stages, note this will not affect in-stage GUI.
