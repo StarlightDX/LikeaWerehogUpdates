@@ -10,3 +10,5 @@ The mod contents from 1.3.8 can still be enjoyed without updating, however you w
 - The missions associated with the Entrance Field.
 - All extra media introduced since 1.3.5.
 - High quality GUI assets such as loading screens for stages, note this will not affect in-stage GUI.
+
+Alternatively you can download the mod in full from the Google Drive link on the mod page, which in some cases may be quicker.
