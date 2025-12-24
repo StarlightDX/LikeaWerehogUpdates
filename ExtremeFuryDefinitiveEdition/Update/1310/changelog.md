@@ -1,2 +1,2 @@
-## Version 1.0
+## Update 1.3.10.
 - GitHub support.

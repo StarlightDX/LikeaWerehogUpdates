@@ -113,7 +113,7 @@
 			"- Reborn.",
 			"- Berserker.",
 			"",
-			"You may wish to disable this if you are using model swaps for the Werehog and wish for these styles to change to."
+			"You may wish to disable this if you are using model swaps for the Werehog and wish for these styles to change with your own mod load order."
           ],
           "Type": "GameplayModel",
           "MinValue": null,
@@ -256,13 +256,13 @@
         },
         {
           "Name": "IncludeDir21",
-          "DisplayName": "Boot Into The HUB",
+          "DisplayName": "Boot Into The ETF",
           "Description": [
-            "Select whether to boot directly into the HUB World of the mod.",
+            "Select whether to boot directly into the ETF HUB World of the mod.",
 			"",
 			"When enabled this will only function when you have completed the game, until then the game will function as usual.",
 			"",
-			"You can still access the World Map from the HUB World via an Entrance Gate."
+			"You can still access the World Map from the ETF HUB World via an Entrance Gate."
           ],
           "Type": "BootIntoHub",
           "MinValue": null,
@@ -284,6 +284,21 @@
           "MaxValue": null,
           "DefaultValue": "./Core/Dummy/"
         }
+//        {
+//          "Name": "IncludeDir27",
+//          "DisplayName": "ETF Graphics",
+//          "Description": [
+//            "Set the visual of the sea within the ETF map, which is out of bounds.",
+//			"",
+//			"You can choose between the default, which is sea or you can choose fog, like the original Empire City.",
+//			"",
+//			"Canonically the ETF is flooded and thus has a sea located below the city buildings."
+//          ],
+//          "Type": "HUBGraphics1",
+//          "MinValue": null,
+//          "MaxValue": null,
+//          "DefaultValue": "./Core/Dummy/"
+//        }
       ]
     }
   ],
@@ -641,16 +656,20 @@
         "DisplayName": "Enabled",
         "Value": "./Config/GameplayModel/Vanilla+/",
         "Description": [
-          "Enables the unique gameplay models."
+          "Enables the unique gameplay models.",
+		  "",
+		  "The Legend, Reborn & Berserker styles' models will conflict with other mods when using this option."
         ]
       },
-//	  {
-//        "DisplayName": "Enabled + 1.3.10 Additions",
-//        "Value": "./Config/GameplayModel/Update/",
-//        "Description": [
-//          "Enables the unique gameplay models plus the additional models for all gameplay styles added as part of update 1.3.10."
-//        ]
-//      },
+	  {
+        "DisplayName": "Enabled + Bonus Additions",
+        "Value": "./Config/GameplayModel/Update/",
+        "Description": [
+          "Enables the unique gameplay models plus the additional models for all gameplay styles added as part of update 1.3.10.",
+		  "",
+		  "All styles' models will conflict with other mods when using this option."
+        ]
+      },
       {
         "DisplayName": "Disabled",
         "Value": "./Core/Dummy/",
@@ -664,7 +683,7 @@
         "DisplayName": "Enabled",
         "Value": "./Config/FloodedCity/BootIntoHub/",
         "Description": [
-          "Enables booting directly into the HUB World for Like a Werehog.",
+          "Enables booting directly into the ETF HUB World for Like a Werehog.",
           "",
           "This will only take affect once you have completed the game."
         ]
@@ -673,7 +692,7 @@
         "DisplayName": "Disabled",
         "Value": "./Core/Dummy/",
         "Description": [
-          "Disables booting directly into the HUB World for Like a Werehog."
+          "Disables booting directly into the ETF HUB World for Like a Werehog."
         ]
       }
     ],
@@ -690,6 +709,22 @@
         "Value": "./Config/FloodedCity/TimeSwitch/Default/",
         "Description": [
           "Disables the additional lighting scene."
+        ]
+      }
+    ],
+    "HUBGraphics1": [
+      {
+        "DisplayName": "Sea Layer",
+        "Value": "./Core/Dummy/",
+        "Description": [
+          "Sea will be present below the buildings."
+        ]
+      },
+      {
+        "DisplayName": "Fog Layer",
+        "Value": "./Config/FloodedCity/Graphics/Cloud/",
+        "Description": [
+          "Fog will be present below the buildings."
         ]
       }
     ],
