@@ -1,1 +1,2 @@
 This uses current version naming, 1310 is the install files for the GameBanana version of 1.3.10{GB}.
+In other words the server version applies to the mod version it will apply to, i.e. both have parity and then the server advances the mod to update server channel rather than install.
