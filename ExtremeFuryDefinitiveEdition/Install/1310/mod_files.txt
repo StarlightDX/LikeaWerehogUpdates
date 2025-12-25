@@ -6,6 +6,10 @@ add Config/ExtraMedia/movie/fis_fundemental_ep2.sfd
 add Config/ExtraMedia/movie/fis_fundemental_ep3.sfd
 add Config/ExtraMedia/movie/fis_fundemental_ep4.sfd
 add Config/ExtraMedia/movie/fis_fundemental_ep5.sfd
+add Config/GameplayModel/Update/+ActN_Style_Beserker.ar.00
+add Config/GameplayModel/Update/+ActN_Style_Beserker.arl
+add Config/GameplayModel/Vanilla+/+ActN_Style_Beserker.ar.00
+add Config/GameplayModel/Vanilla+/+ActN_Style_Beserker.arl
 add Core/Kiwami/#Town_NYCityETF_Night_Append.ar.00
 add Core/Kiwami/#Town_NYCityETF_Night_Append.arl
 add Core/Kiwami/City_Flooded_Common.ar.00
