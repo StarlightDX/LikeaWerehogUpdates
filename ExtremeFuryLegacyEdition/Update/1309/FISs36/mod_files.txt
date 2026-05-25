@@ -1,4 +1,5 @@
 add mod.ini
+add disclaimer.txt
 
 add Media/+#Application.ar.00
 add Media/+#Application.arl

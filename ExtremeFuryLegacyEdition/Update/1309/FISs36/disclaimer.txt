@@ -1,0 +1,4 @@
+Support for this version may be spotty, this version was made upon request and may not recieve frequent updates.
+Please refer to the page to see the correct version number.
+
+Additionally please do note that some compatibility problems may occur.
