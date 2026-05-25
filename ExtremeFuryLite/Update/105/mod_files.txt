@@ -8,6 +8,9 @@ add Core/Common/+#EvilSonic.arl
 add Core/Common/+EvilSonic.ar.00
 add Core/Common/+EvilSonic.arl
 
+add Core/Common/Languages/English/+WorldMap.ar.00
+add Core/Common/Languages/English/+WorldMap.arl
+
 add Core/CommonFont/Languages/English/+EvilActionCommon.ar.00
 add Core/CommonFont/Languages/English/+EvilActionCommon.arl
 add Core/CommonFont/Languages/English/+Town_Africa_Common.ar.00
