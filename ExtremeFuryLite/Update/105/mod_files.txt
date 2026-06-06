@@ -39,3 +39,20 @@ add Config/ForeignInputSystem/+#Application.arl
 
 add Config/OneHitKO/+#Application.ar.00
 add Config/OneHitKO/+#Application.arl
+
+add Core/DragonDojo/Berserker/+#ActionCommon.ar.00
+add Core/DragonDojo/Berserker/+#ActionCommon.arl
+add Core/DragonDojo/Berserker/+#EvilSonic.ar.00
+add Core/DragonDojo/Berserker/+#EvilSonic.arl
+add Core/DragonDojo/Buster/+#ActionCommon.ar.00
+add Core/DragonDojo/Buster/+#ActionCommon.arl
+add Core/DragonDojo/Buster/+#EvilSonic.ar.00
+add Core/DragonDojo/Buster/+#EvilSonic.arl
+add Core/DragonDojo/Hermit/+#ActionCommon.ar.00
+add Core/DragonDojo/Hermit/+#ActionCommon.arl
+add Core/DragonDojo/Hermit/+#EvilSonic.ar.00
+add Core/DragonDojo/Hermit/+#EvilSonic.arl
+add Core/DragonDojo/Slasher/+#ActionCommon.ar.00
+add Core/DragonDojo/Slasher/+#ActionCommon.arl
+add Core/DragonDojo/Slasher/+#EvilSonic.ar.00
+add Core/DragonDojo/Slasher/+#EvilSonic.arl
